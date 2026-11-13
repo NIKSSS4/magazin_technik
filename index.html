@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHNO STORE — магазин техники</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <a class="logo" href="#">TECHNO<span>STORE</span></a>
+            <nav class="menu">
+                <a href="#catalog">Каталог</a>
+                <a href="#offers">Акции</a>
+                <a href="#contacts">Контакты</a>
+            </nav>
+            <div class="header-note">Техника для жизни</div>
+        </header>
+
+        <aside class="sidebar">
+            <h2>Фильтры</h2>
+
+            <div class="filter-group">
+                <h3>Цена</h3>
+                <label><input type="checkbox"> До 10 000 ₽</label>
+                <label><input type="checkbox"> 10 000–30 000 ₽</label>
+                <label><input type="checkbox"> От 30 000 ₽</label>
+            </div>
+
+            <div class="filter-group">
+                <h3>Бренд</h3>
+                <label><input type="checkbox"> Apple</label>
+                <label><input type="checkbox"> Samsung</label>
+                <label><input type="checkbox"> Xiaomi</label>
+            </div>
+
+            <div class="filter-group">
+                <h3>Наличие</h3>
+                <label><input type="checkbox"> В наличии</label>
+                <label><input type="checkbox"> Под заказ</label>
+            </div>
+        </aside>
+
+        <main class="main" id="catalog">
+            <div class="catalog-heading">
+                <div>
+                    <p class="eyebrow">НАШ ВЫБОР</p>
+                    <h1>Популярная техника</h1>
+                    <p class="subtitle">Выбирай устройства для работы, учёбы и отдыха.</p>
+                </div>
+                <span class="catalog-count">6 товаров</span>
+            </div>
+
+            <section class="catalog" aria-label="Каталог товаров">
+                <article class="product-card featured" id="offers">
+                    <div class="product-visual phone-visual">
+                        <span class="product-tag">Хит продаж</span>
+                        <div class="device phone"></div>
+                    </div>
+                    <div class="product-info">
+                        <p class="category">Смартфоны</p>
+                        <h2>Смартфон Galaxy</h2>
+                        <p class="description">Яркий экран, хорошая камера и быстрая работа.</p>
+                        <div class="card-bottom">
+                            <strong class="price">39 990 ₽</strong>
+                            <a class="buy-button" href="#contacts">Подробнее</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-visual laptop-visual">
+                        <div class="device laptop"><span></span></div>
+                    </div>
+                    <div class="product-info">
+                        <p class="category">Ноутбуки</p>
+                        <h2>Ноутбук Air</h2>
+                        <p class="description">Для учёбы, работы и повседневных задач.</p>
+                        <div class="card-bottom">
+                            <strong class="price">74 990 ₽</strong>
+                            <a class="buy-button" href="#contacts">Подробнее</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-visual headphones-visual">
+                        <div class="device headphones"><span></span></div>
+                    </div>
+                    <div class="product-info">
+                        <p class="category">Аксессуары</p>
+                        <h2>Наушники Pro</h2>
+                        <p class="description">Чистый звук и удобная посадка.</p>
+                        <div class="card-bottom">
+                            <strong class="price">8 490 ₽</strong>
+                            <a class="buy-button" href="#contacts">Подробнее</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-visual watch-visual">
+                        <div class="device watch"><span>10:08</span></div>
+                    </div>
+                    <div class="product-info">
+                        <p class="category">Умные часы</p>
+                        <h2>Smart Watch</h2>
+                        <p class="description">Удобные функции на каждый день.</p>
+                        <div class="card-bottom">
+                            <strong class="price">12 990 ₽</strong>
+                            <a class="buy-button" href="#contacts">Подробнее</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-visual tablet-visual">
+                        <div class="device tablet"></div>
+                    </div>
+                    <div class="product-info">
+                        <p class="category">Планшеты</p>
+                        <h2>Планшет Tab</h2>
+                        <p class="description">Большой экран для видео и заметок.</p>
+                        <div class="card-bottom">
+                            <strong class="price">26 990 ₽</strong>
+                            <a class="buy-button" href="#contacts">Подробнее</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-visual speaker-visual">
+                        <div class="device speaker"><span></span></div>
+                    </div>
+                    <div class="product-info">
+                        <p class="category">Аудио</p>
+                        <h2>Колонка Mini</h2>
+                        <p class="description">Компактная колонка с насыщенным звуком.</p>
+                        <div class="card-bottom">
+                            <strong class="price">4 990 ₽</strong>
+                            <a class="buy-button" href="#contacts">Подробнее</a>
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <footer class="footer" id="contacts">
+            <div>
+                <strong>TECHNO STORE</strong>
+                <p>Техника, которая делает жизнь проще.</p>
+            </div>
+            <div class="contacts">
+                <span>Телефон: +7 (900) 123-45-67</span>
+                <span>Email: info@technostore.ru</span>
+            </div>
+            <span class="copyright">© 2026 TECHNO STORE</span>
+        </footer>
+    </div>
+</body>
+</html>
